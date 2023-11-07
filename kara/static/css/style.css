@@ -1,0 +1,383 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e42f8b;
+    color: #7A7C80;
+
+}
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #e42f8b;
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    padding-top: 5%;
+    margin: 0;
+}
+
+
+/* section 1 */
+.section-1{
+    padding-top: 20%;
+    text-align: center;
+}
+
+.section-13{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.section-14{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.section-14 p {
+    padding: 0;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.section-24 p {
+    padding: 0;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.section-1 i {
+    margin-top: 52%;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a {
+    color: #ffffff;
+}
+
+
+
+/* section 2 */
+.section-2{
+    width: 100%;
+    padding-top: 20%;
+}
+
+.section-23{
+    width: 100%;
+    padding-top: 5%;
+}
+
+.section-24{
+    width: 100%;
+    padding-top: 5%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.theme{
+    border-radius: 25px;
+    background: #f3dee5;
+    padding: 20px;
+    width: 180%;
+    height: 300px;
+    font-size: 3.75rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    color: #e42f8b;
+    animation: slideMe .7s ease-in;
+}
+
+.themeb{
+    border-radius: 25px;
+    background: #f3dee5;
+    padding: 20px;
+    width: 180%;
+    height: 300px;
+    font-size: 3.75rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    color: #e42f8b;
+    animation: slideMe 1s ease-in;
+}
+
+.title{
+    border-radius: 25px;
+    background: #f3dee5;
+    padding: 20px;
+    margin-left:20%;
+    margin-right:20%;
+    width: 60%;
+    height: 300px;
+    font-size: 5rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    color: #e42f8b;
+    margin-top: 5%;
+}
+
+.title3{
+    border-radius: 25px;
+    background: #f3dee5;
+    padding: 20px;
+    margin-left:20%;
+    margin-right:20%;
+    width: 60%;
+    height: 200px;
+    font-size: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    color: #e42f8b;
+    margin-top: 2%;
+}
+
+.title4{
+    border-radius: 25px;
+    background: #f3dee5;
+    padding: 20px;
+    margin-left:20%;
+    margin-right:20%;
+    width: 60%;
+    height: 200px;
+    font-size: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    color: #e42f8b;
+    margin-top: 2%;
+}
+
+.theme2{
+    margin-top: -5%;
+    border-radius: 25px;
+    background: #f3dee5;
+    width: 80%;
+    margin-left: 10%;
+    height: 285px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    padding-top:5%;
+    color: #e42f8b;
+}
+
+.theme4{
+    margin-top: -5%;
+    border-radius: 25px;
+    background: #f3dee5;
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    padding-bottom: 1.5%;
+    padding-top:.5%;
+    color: #e42f8b;
+    margin-bottom: 5%;
+}
+
+.theme23{
+    margin-top: -5%;
+    border-radius: 25px;
+    background: #f3dee5;
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    padding-bottom: 1.5%;
+    padding-top:.5%;
+    color: #e42f8b;
+    margin-bottom: 5%;
+}
+
+.theme3{
+    margin-top: 5%;
+    border-radius: 25px;
+    background: #f3dee5;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 200px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    color: #e42f8b;
+     line-height: 30px;
+    padding-bottom: 1.5%;
+    padding-top:.5%;
+}
+
+.empty{
+    height: 10%
+}
+
+.center{
+    width: 100%;
+    height: 300px;
+    font-size: 5rem;
+    text-align: center;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
+
+.animate.pop {
+  animation-name: animate-pop;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-duration: .5s;
+}
+
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+.animate.pop2 {
+  animation-name: animate-pop2;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-duration: .75s;
+}
+
+@keyframes animate-pop2 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+.animate.pop3 {
+  animation-name: animate-pop3;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-duration: 1s;
+}
+
+@keyframes animate-pop3 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+.animate.pop4 {
+  animation-name: animate-pop4;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-duration: 1.25s;
+}
+
+@keyframes animate-pop4 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+
+@keyframes slideMe{
+    0%{
+        transform: skewX(53deg) translateX(+500px);
+        opacity: 0;
+    }
+    60%{
+        transform: translateX(0px);
+    }
+    62%{
+        transform: skewX(0deg) translateX(-20px);
+    }
+    70%{
+        transform: skewX(-20deg);
+        opacity: 1;
+    }
+    80%{
+        transform: skew(0deg) translate(0);
+    }
+    90%{
+        transform: skew(-5deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}

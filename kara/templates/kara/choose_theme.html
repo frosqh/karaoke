@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/a6ed3396f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Choisis un thème !</title>
+
+</head>
+<body>
+    <div class="grid-3">
+        <div class="section-1">
+            <a  href="{% url 'reset' %}"><i id='reset' class="fas fa-solid fa-arrows-rotate fa-5x white"></i></a>
+            <a href="{% url 'choose_theme' %}"><i id='redo' class="fas fa-redo fa-5x white"></i></a>
+            <br>
+            <label style="color: white">{{unusedthemes}}/{{allthemes}}</label>
+            <progress id="file" value="{{unusedthemes}}" max="{{allthemes}}"> 32% </progress>
+        </div>
+        <div class="section-2">
+            <div class="theme"><a href="{% url 'choose_song' pk=theme1.pk %}">{{ theme1 }}</a></div>
+            <div class="empty"></div>
+            <div class="themeb"><a href="{% url 'choose_song' pk=theme2.pk %}">{{ theme2 }}</a></div>
+        </div>
+    </div>
+</body>
+
+<script>
+        $('#reset').hover(
+       function(){ $(this).addClass('fa-spin') },
+       function(){ $(this).removeClass('fa-spin')})
+
+        $('#redo').hover(
+       function(){ $(this).addClass('fa-spin') },
+       function(){ $(this).removeClass('fa-spin')})
+    </script>
+</html>
