@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["froskodjango.eu.pythonanywhere.com"]
 
+import mimetypes
+mimetypes.add_type("text/css", ".css", True)
+
 
 # Application definition
 
